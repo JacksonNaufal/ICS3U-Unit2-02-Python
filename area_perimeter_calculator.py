@@ -6,17 +6,13 @@
 
 
 def main():
-    
     # This is a calculator that calculates the area and perimeter of a rectangle
-    
     # input
     Length = int(input("Enter Length of rectangle (mm)"))
     Width = int(input("Enter Width of rectangle (mm)"))
-    
     # process
     area = Length * Width
     perimeter = 2 * (Length + Width)
-    
     # output
     print("")
     print("The area of your rectangle is {0} cm².".format(area))
